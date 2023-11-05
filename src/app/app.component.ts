@@ -11,7 +11,7 @@ export class AppComponent implements AfterViewInit{
 
   parentMessage:string = "Message changed";
   
-  @ViewChild(PostComponent) myComp:PostComponent;
+  @ViewChild(PostComponent) myComp!:PostComponent;
 
   myVariable:string = "";
 
