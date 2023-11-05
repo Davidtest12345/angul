@@ -28,12 +28,7 @@ export class AppComponent implements AfterViewInit{
     },0)
   }
 
-  a:string = "asdasd";
-
-  receiveMessage() {
-    console.log(this.a);
-    // this.myv = $event!;
-  }
+ 
 
 
 

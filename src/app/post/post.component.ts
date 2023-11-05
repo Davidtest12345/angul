@@ -27,8 +27,6 @@ export class PostComponent implements OnInit {
 
   }
 
-  sendMessage() {
-    this.broEvent.emit(this.outputChildMessage);
-  }
+  
 
 }
